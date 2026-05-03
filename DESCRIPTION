@@ -1,0 +1,41 @@
+Package: RLFPCR
+Type: Package
+Title: Robust Longitudinal Functional Principal Component Regression
+Version: 1.0.0
+Authors@R: c(
+    person("Ufuk", "Beyaztas",
+      email = "ufuk.beyaztas@marmara.edu.tr",
+      role = c("aut", "cre", "cph"),
+      comment = c(ORCID = "0000-0002-5208-4950")),
+    person("Deniz", "Inan",
+      role = "aut"),
+    person("Nuriye", "Sancar",
+      role = "aut"),
+    person("Beste Hamiye", "Beyaztas",
+      role = "aut"),
+    person("Boran", "Sekeroglu",
+      role = "aut")
+  )
+Description: Functions for fitting robust longitudinal functional principal
+    component regression models for longitudinal scalar-on-function data.
+    The package provides tools for simulation-based data generation, robust
+    estimation of longitudinal functional principal component decompositions,
+    robust mean-surface and covariance estimation, separation of subject-level
+    functional intercept, subject-level functional slope, and visit-specific
+    deviation components, blockwise estimation of longitudinal functional
+    principal component scores, robust additive mixed score regression, and
+    coefficient-function reconstruction. The implemented methodology is designed
+    for repeatedly observed scalar responses and densely observed functional
+    predictors, with resistance to atypical curves, contaminated visits, and
+    outlying scalar responses.
+Depends: R (>= 3.5.0)
+Imports:
+    mgcv,
+    orthopolynom,
+    splines,
+    stats
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 7.1.2
