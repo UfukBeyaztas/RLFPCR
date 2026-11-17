@@ -8,8 +8,7 @@ atypical. The method builds on the longitudinal functional principal component
 regression of Greven et al. (2010) and Gertheiss et al. (2013) and makes each
 of its steps resistant to atypical curves and outlying responses.
 
-This is version 1.1.0, the version used in the paper cited below. The manual
-is in `RLFPCR_1.1.0.pdf`.
+The manual is in `RLFPCR_1.1.0.pdf`.
 
 ## Installation
 
